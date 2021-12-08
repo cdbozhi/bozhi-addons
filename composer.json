@@ -41,5 +41,10 @@
       "php think addons:config",
       "php think auth:config"
     ]
+  },
+  "minimum-stability": "dev",
+  "require": {},
+  "require-dev":{
+    "cdbozhi/bozhi-addons":"dev-master"
   }
 }
