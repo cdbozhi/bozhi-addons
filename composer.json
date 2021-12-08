@@ -9,10 +9,8 @@
             "email": "1314778@qq.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0.0",
-        "cdbozhi/bozhi-addons":"dev-master"
+        "php": ">=7.0.0"
     },
   "autoload": {
     "psr-4": {
@@ -40,9 +38,5 @@
       "php think addons:config",
       "php think auth:config"
     ]
-  },
-  "minimum-stability": "dev",
-  "require-dev":{
-    "cdbozhi/bozhi-addons":"^1.0.0"
   }
 }
