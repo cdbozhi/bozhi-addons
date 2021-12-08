@@ -1,15 +1,19 @@
 {
   "name": "cdbozhi/bozhi-addons",
-  "license": "Apache-2.0",
-  "authors": [
-    {
-      "name": "arzn",
-      "email": "1314778@qq.com"
-    }
-  ],
-  "require": {
-    "php": ">=7.1.0"
-  },
+    "description": "bozhiadmin addons",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "arzn",
+            "email": "1314778@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "cdbozhi/bozhi-addons":"dev-master"
+    },
   "autoload": {
     "psr-4": {
       "bozhi\\": "src/"
