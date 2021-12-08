@@ -8,12 +8,7 @@
     }
   ],
   "require": {
-    "php": ">=7.1.0",
-    "topthink/framework": "6.0.*",
-    "topthink/think-view": "^1.0",
-    "topthink/think-helper": "^3.1",
-    "firebase/php-jwt":"v5.4.0"
-
+    "php": ">=7.1.0"
   },
   "autoload": {
     "psr-4": {
@@ -43,7 +38,6 @@
     ]
   },
   "minimum-stability": "dev",
-  "require": {},
   "require-dev":{
     "cdbozhi/bozhi-addons":"^1.0.0"
   }
